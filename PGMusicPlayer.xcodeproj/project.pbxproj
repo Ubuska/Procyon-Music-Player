@@ -56,6 +56,7 @@
 		78BAED191B4C471A00E6B2CD /* PGAlbumManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BAED171B4C471A00E6B2CD /* PGAlbumManager.m */; };
 		78BAED241B4C4CC600E6B2CD /* PGColoredView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BAED231B4C4CC600E6B2CD /* PGColoredView.m */; };
 		78BAED251B4C4CC600E6B2CD /* PGColoredView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BAED231B4C4CC600E6B2CD /* PGColoredView.m */; };
+		78C1A7DD1B9397D400E4610C /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C1A7DC1B9397D400E4610C /* AppKit.framework */; };
 		D0318C7A1B4BCC32005DBCA4 /* PGAsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0318C791B4BCC32005DBCA4 /* PGAsyncImageView.m */; };
 		D0318C7B1B4BCC32005DBCA4 /* PGAsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0318C791B4BCC32005DBCA4 /* PGAsyncImageView.m */; };
 		D0318C8F1B4BDD92005DBCA4 /* INAppStoreWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = D0318C851B4BDD92005DBCA4 /* INAppStoreWindow.m */; };
@@ -193,6 +194,7 @@
 		78BAED171B4C471A00E6B2CD /* PGAlbumManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGAlbumManager.m; sourceTree = "<group>"; };
 		78BAED221B4C4CC600E6B2CD /* PGColoredView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGColoredView.h; sourceTree = "<group>"; };
 		78BAED231B4C4CC600E6B2CD /* PGColoredView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGColoredView.m; sourceTree = "<group>"; };
+		78C1A7DC1B9397D400E4610C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		D0318C781B4BCC32005DBCA4 /* PGAsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGAsyncImageView.h; sourceTree = "<group>"; };
 		D0318C791B4BCC32005DBCA4 /* PGAsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGAsyncImageView.m; sourceTree = "<group>"; };
 		D0318C841B4BDD92005DBCA4 /* INAppStoreWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INAppStoreWindow.h; sourceTree = "<group>"; };
@@ -250,6 +252,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78C1A7DD1B9397D400E4610C /* AppKit.framework in Frameworks */,
 				78022CE81B49962200BAF68C /* QuartzCore.framework in Frameworks */,
 				784ED6681B49637500F56DBE /* AVFoundation.framework in Frameworks */,
 			);
@@ -278,6 +281,7 @@
 		784ED6381B49635600F56DBE = {
 			isa = PBXGroup;
 			children = (
+				78C1A7DC1B9397D400E4610C /* AppKit.framework */,
 				78022CE71B49962200BAF68C /* QuartzCore.framework */,
 				784ED6741B4965E400F56DBE /* Black Moon Empire.mp3 */,
 				784ED6781B49734F00F56DBE /* Nothing On My Back.mp3 */,

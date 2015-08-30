@@ -10,4 +10,6 @@
 
 @interface PGAlbum : PGItem
 
+- (void) GetCoverImage;
+
 @end

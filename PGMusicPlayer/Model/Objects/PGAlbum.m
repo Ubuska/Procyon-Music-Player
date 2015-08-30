@@ -7,7 +7,13 @@
 //
 
 #import "PGAlbum.h"
+#import <AVFoundation/AVFoundation.h>
 
 @implementation PGAlbum
+
+- (void) GetCoverImage
+{
+    
+}
 
 @end

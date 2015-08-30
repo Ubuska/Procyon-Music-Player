@@ -12,6 +12,7 @@
 {
 
     NSURL* TrackURL;
+    NSImage* CoverImage;
 
 }
 
